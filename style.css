@@ -1,0 +1,55 @@
+.profile-cards{
+   
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 20px; 
+   justify-content: center;
+ 
+ 
+
+} 
+*{
+    margin: 0;
+    padding: 0; box-sizing: border-box;
+}
+ body{
+    width:100%;
+    margin: 0 auto;
+   
+
+ }
+.card{
+    width: 300px;
+    border: 1px solid #000000 ;
+    padding: 10px;
+    box-sizing: bo;
+    box-shadow: 2px 2px 2px 2px #dfdbdb;
+    text-align: center;
+  
+}
+.card img{
+    width: 100%;
+}
+.profile-cards .cards{
+    display: flex;
+    flex-direction: column;
+  gap:20px;
+
+}
+@media only screen and (max-width:640px) {
+    .profile-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+    }   
+    .card{
+    width:100%;
+    padding: 10px;
+
+    }   
+}
+
+
